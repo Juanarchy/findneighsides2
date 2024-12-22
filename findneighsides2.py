@@ -19,7 +19,7 @@ to leave nodes isolated. I suspect that would be fine, but the resulting answers
 """
 
 
-elements=np.loadtxt("ElemNodesMatlab.txt",dtype=int)#load nodes faces array.
+elements=np.loadtxt("ElemNodes.txt",dtype=int)#load nodes faces array.
 elements=elements-1 #turn into 0-index if 1-indexed.
 bad_cells=None
 
